@@ -1,0 +1,27 @@
+def solution(new_id):
+    allow = ['-', '_', '.']
+    new_id = ''.join([char for char in new_id.lower() if char.isalnum() or char in allow ])
+
+    i = 0
+    while i < len(new_id):
+        if new_id[i:i+2] == '..':
+            new_id = new_id[:i] + new_id[i+1:]
+        else:
+            i += 1
+
+    new_id = new_id[1:] if new_id and new_id[0] == allow[2] else new_id
+    new_id = new_id[:-1] if new_id and new_id[-1] == allow[2] else new_id
+    new_id = 'a' if not new_id else new_id
+    new_id = new_id[:15] if len(new_id) > 15 else new_id
+    new_id = new_id[:-1] if new_id and new_id[-1] == allow[2] else new_id
+
+    while len(new_id) < 3:
+        new_id += new_id[-1]
+
+    return new_id
+
+print(solution("...!@BaT#*..y.abcdefghijklm")) # "bat.y.abcdefghi"
+print(solution("z-+.^.")) # "z--"
+print(solution("=.=")) # "aaa"
+print(solution("123_.def")) # "123_.def"
+print(solution("abcdefghijklmn.p")) # "abcdefghijklmn"
