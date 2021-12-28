@@ -1,17 +1,14 @@
-'''
+from collections import deque
+
 N, K = map(int, input().split())
+q = deque(list(range(1, N + 1)))
 
-seq = []
-people = list(range(1, N + 1))
-
-i, j = 0, 0
-while people:
-    i += K - j - 1
-    j += 1
-    if len(people) <= i:
-        i -= len(people)
-        j = 0
-    seq.append(people.pop(i))
-
-print(seq)
-'''
+print('<', end='')
+while len(q) > 1:
+    for k in range(K):
+        i = q.popleft()
+        if k + 1 < K:
+            q.append(i)
+        else:
+            print(i, end=', ')
+print('%d>' % q.popleft())
