@@ -1,19 +1,34 @@
 from collections import deque
 
-def bfs(r, c, d):
-    queue = deque([[r, c, d]])
-    t = 0
+n, m = map(int, input().split())
+robot = list(map(int, input().split()))
+board = [list(map(int, input().split())) for _ in range(n)]
+clean = [[False] * m for _ in range(n)]
 
-    while queue:
-        r, c, d = queue.popleft()
-        t += 1
+dr, dc = [-1, 0, 1, 0], [0, 1, 0, -1]
+cnt = 0
+queue = deque([robot])
 
-    print(queue)
+while queue:
+    r, c, d = queue.popleft()
 
-h, w = map(int, input().split())
+    if not clean[r][c]:
+        clean[r][c] = True
+        cnt += 1
 
-# 0123 북동남서
-r, c, d = map(int, input().split())
+    flag = True
+    for i in range(4):
+        md = (d - (i + 1)) % 4
+        mr, mc = r + dr[md], c + dc[md]
 
-floor = [list(map(int, input().split())) for _ in range(h)]
-print(bfs())
+        if not board[mr][mc] and not clean[mr][mc]:
+            queue.append([mr, mc, md])
+            flag = False
+            break
+
+    if flag:
+        mr, mc = r + dr[d] * -1, c + dc[d] * -1
+        if not board[mr][mc]:
+            queue.append([mr, mc, d])
+
+print(cnt)
