@@ -4,13 +4,13 @@
 
 ***
 
-<center>
+<p style="text-align: center;">
 
 |시간 제한|메모리 제한|
 |:---:|:---:|
 |2 초 |256 MB|
 
-</center>
+</p>
 
 ### 문제
 
