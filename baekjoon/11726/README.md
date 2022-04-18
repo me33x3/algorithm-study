@@ -4,13 +4,13 @@
 
 ***
 
-<p style="text-align: center;">
+<div align="center">
 
 |시간 제한|메모리 제한|
 |:---:|:---:|
 |1 초 |256 MB|
 
-</p>
+</div>
 
 ### 문제
 
@@ -20,7 +20,7 @@
 
 아래 그림은 2×5 크기의 직사각형을 채운 한 가지 방법의 예이다.
 
-<p style="text-align: center;"><img alt="" src="https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/11726/1.png" style="height:50px; width:125px"/></p>
+<div align="center"><img alt="" src="https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/11726/1.png" style="height:50px; width:125px"/></div>
 
 ### 입력
 

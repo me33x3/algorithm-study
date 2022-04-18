@@ -4,13 +4,13 @@
 
 ***
 
-<p style="text-align: center;">
+<div align="center">
 
 |시간 제한|메모리 제한|
 |:---:|:---:|
 |2 초 |256 MB|
 
-</p>
+</div>
 
 ### 문제
 
