@@ -34,15 +34,51 @@
 
 첫째 줄에 말이 지날 수 있는 최대의 칸 수를 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|2 4<br/>CAAB<br/>ADCB|3|
-|3 6<br/>HFDFFB<br/>AJHGDH<br/>DGAGEH|6|
-|5 5<br/>IEFCJ<br/>FHFKC<br/>FFALF<br/>HFGCF<br/>HMCHH|10|
+```
+2 4
+CAAB
+ADCB
+```
+
+```
+3
+```
+
+### 예제 2
+
+***
+
+```
+3 6
+HFDFFB
+AJHGDH
+DGAGEH
+```
+
+```
+6
+```
+
+### 예제 3
+
+***
+
+```
+5 5
+IEFCJ
+FHFKC
+FFALF
+HFGCF
+HMCHH
+```
+
+```
+10
+```
 
 ### 알고리즘 분류
 

@@ -18,9 +18,9 @@
 
 N+1개의 <code>I</code>와 N개의 <code>O</code>로 이루어져 있으면, <code>I</code>와 <code>O</code>이 교대로 나오는 문자열을 P<sub>N</sub>이라고 한다.
 
-* P<sub>1</sub> <code>IOI</code>
-* P<sub>2</sub> <code>IOIOI</code>
-* P<sub>3</sub> <code>IOIOIOI</code>
+* P<sub>1</sub> <code>IOI</code>  
+* P<sub>2</sub> <code>IOIOI</code>  
+* P<sub>3</sub> <code>IOIOIOI</code>  
 * P<sub>N</sub> <code>IOIOI...OI</code> (<code>O</code>가 N개)
 
 <code>I</code>와 <code>O</code>로만 이루어진 문자열 S와 정수 N이 주어졌을 때, S안에 P<sub>N</sub>이 몇 군데 포함되어 있는지 구하는 프로그램을 작성하시오.
@@ -41,8 +41,8 @@ S에 P<sub>N</sub>이 몇 군데 포함되어 있는지 출력한다.
 
 ***
 
-* 1 ≤ N ≤ 1,000,000
-* 2N+1 ≤ M ≤ 1,000,000
+* 1 ≤ N ≤ 1,000,000  
+* 2N+1 ≤ M ≤ 1,000,000  
 * S는 <code>I</code>와 <code>O</code>로만 이루어져 있다.
 
 ### 서브태스크
@@ -71,14 +71,41 @@ S에 P<sub>N</sub>이 몇 군데 포함되어 있는지 출력한다.
 </tbody>
 </table>
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|1<br/>13<br/>OOIOIOIOIIOII|4|
-|2<br/>13<br/>OOIOIOIOIIOII|2|
+```
+1
+13
+OOIOIOIOIIOII
+```
+
+```
+4
+```
+
+* <code>OO<u>IOI</u>OIOIIOII</code>  
+* <code>OOIO<u>IOI</u>OIIOII</code>  
+* <code>OOIOIO<u>IOI</u>IOII</code>  
+* <code>OOIOIOIOI<u>IOI</u>I</code>
+
+### 예제 2
+
+***
+
+```
+2
+13
+OOIOIOIOIIOII
+```
+
+```
+2
+```
+
+* <code>OO<u>IOIOI</u>OIIOII</code>  
+* <code>OOIO<u>IOIOI</u>IOII</code>
 
 ### 알고리즘 분류
 

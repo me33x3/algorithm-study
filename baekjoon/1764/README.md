@@ -32,13 +32,26 @@
 
 듣보잡의 수와 그 명단을 사전순으로 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|3 4<br/>ohhenrie<br/>charlie<br/>baesangwook<br/>obama<br/>baesangwook<br/>ohhenrie<br/>clinton|2<br/>baesangwook<br/>ohhenrie|
+```
+3 4
+ohhenrie
+charlie
+baesangwook
+obama
+baesangwook
+ohhenrie
+clinton
+```
+
+```
+2
+baesangwook
+ohhenrie
+```
 
 ### 알고리즘 분류
 

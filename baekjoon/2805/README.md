@@ -1,6 +1,6 @@
 # [나무 자르기](https://www.acmicpc.net/problem/2805)
 
-> <img src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg" width="16" heigth="21" style = "vertical-align: middle;"/>&nbsp;<span style="font-size: 18px; color: #435f7a;">Silver III</span>
+> <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="16" heigth="21" style = "vertical-align: middle;"/>&nbsp;<span style="font-size: 18px; color: #435f7a;">Silver II</span>
 
 ***
 
@@ -36,14 +36,31 @@
 
 적어도 M미터의 나무를 집에 가져가기 위해서 절단기에 설정할 수 있는 높이의 최댓값을 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|4 7<br/>20 15 10 17|15|
-|5 20<br/>4 42 40 26 46|36|
+```
+4 7
+20 15 10 17
+```
+
+```
+15
+```
+
+### 예제 2
+
+***
+
+```
+5 20
+4 42 40 26 46
+```
+
+```
+36
+```
 
 ### 알고리즘 분류
 

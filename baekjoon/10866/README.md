@@ -20,14 +20,14 @@
 
 명령은 총 여덟 가지이다.
 
-* push_front X: 정수 X를 덱의 앞에 넣는다.
-* push_back X: 정수 X를 덱의 뒤에 넣는다.
-* pop_front: 덱의 가장 앞에 있는 수를 빼고, 그 수를 출력한다. 만약, 덱에 들어있는 정수가 없는 경우에는 -1을 출력한다.
-* pop_back: 덱의 가장 뒤에 있는 수를 빼고, 그 수를 출력한다. 만약, 덱에 들어있는 정수가 없는 경우에는 -1을 출력한다.
-* size: 덱에 들어있는 정수의 개수를 출력한다.
-* empty: 덱이 비어있으면 1을, 아니면 0을 출력한다.
-* front: 덱의 가장 앞에 있는 정수를 출력한다. 만약 덱에 들어있는 정수가 없는 경우에는 -1을 출력한다.
-* back: 덱의 가장 뒤에 있는 정수를 출력한다. 만약 덱에 들어있는 정수가 없는 경우에는 -1을 출력한다.
+* push_front X: 정수 X를 덱의 앞에 넣는다.  
+* push_back X: 정수 X를 덱의 뒤에 넣는다.  
+* pop_front: 덱의 가장 앞에 있는 수를 빼고, 그 수를 출력한다. 만약, 덱에 들어있는 정수가 없는 경우에는 -1을 출력한다.  
+* pop_back: 덱의 가장 뒤에 있는 수를 빼고, 그 수를 출력한다. 만약, 덱에 들어있는 정수가 없는 경우에는 -1을 출력한다.  
+* size: 덱에 들어있는 정수의 개수를 출력한다.  
+* empty: 덱이 비어있으면 1을, 아니면 0을 출력한다.  
+* front: 덱의 가장 앞에 있는 정수를 출력한다. 만약 덱에 들어있는 정수가 없는 경우에는 -1을 출력한다.  
+* back: 덱의 가장 뒤에 있는 정수를 출력한다. 만약 덱에 들어있는 정수가 없는 경우에는 -1을 출력한다.
 
 ### 입력
 
@@ -41,14 +41,92 @@
 
 출력해야하는 명령이 주어질 때마다, 한 줄에 하나씩 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|15<br/>push_back 1<br/>push_front 2<br/>front<br/>back<br/>size<br/>empty<br/>pop_front<br/>pop_back<br/>pop_front<br/>size<br/>empty<br/>pop_back<br/>push_front 3<br/>empty<br/>front|2<br/>1<br/>2<br/>0<br/>2<br/>1<br/>-1<br/>0<br/>1<br/>-1<br/>0<br/>3|
-|22<br/>front<br/>back<br/>pop_front<br/>pop_back<br/>push_front 1<br/>front<br/>pop_back<br/>push_back 2<br/>back<br/>pop_front<br/>push_front 10<br/>push_front 333<br/>front<br/>back<br/>pop_back<br/>pop_back<br/>push_back 20<br/>push_back 1234<br/>front<br/>back<br/>pop_back<br/>pop_back|-1<br/>-1<br/>-1<br/>-1<br/>1<br/>1<br/>2<br/>2<br/>333<br/>10<br/>10<br/>333<br/>20<br/>1234<br/>1234<br/>20|
+```
+15
+push_back 1
+push_front 2
+front
+back
+size
+empty
+pop_front
+pop_back
+pop_front
+size
+empty
+pop_back
+push_front 3
+empty
+front
+```
+
+```
+2
+1
+2
+0
+2
+1
+-1
+0
+1
+-1
+0
+3
+```
+
+### 예제 2
+
+***
+
+```
+22
+front
+back
+pop_front
+pop_back
+push_front 1
+front
+pop_back
+push_back 2
+back
+pop_front
+push_front 10
+push_front 333
+front
+back
+pop_back
+pop_back
+push_back 20
+push_back 1234
+front
+back
+pop_back
+pop_back
+```
+
+```
+-1
+-1
+-1
+-1
+1
+1
+2
+2
+333
+10
+10
+333
+20
+1234
+1234
+20
+```
 
 ### 알고리즘 분류
 

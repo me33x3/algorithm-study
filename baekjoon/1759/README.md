@@ -34,13 +34,31 @@
 
 각 줄에 하나씩, 사전식으로 가능성 있는 암호를 모두 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|4 6<br/>a t c i s w|acis<br/>acit<br/>aciw<br/>acst<br/>acsw<br/>actw<br/>aist<br/>aisw<br/>aitw<br/>astw<br/>cist<br/>cisw<br/>citw<br/>istw|
+```
+4 6
+a t c i s w
+```
+
+```
+acis
+acit
+aciw
+acst
+acsw
+actw
+aist
+aisw
+aitw
+astw
+cist
+cisw
+citw
+istw
+```
 
 ### 알고리즘 분류
 

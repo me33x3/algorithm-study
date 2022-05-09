@@ -1,6 +1,6 @@
 # [회의실 배정](https://www.acmicpc.net/problem/1931)
 
-> <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="16" heigth="21" style = "vertical-align: middle;"/>&nbsp;<span style="font-size: 18px; color: #435f7a;">Silver II</span>
+> <img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="16" heigth="21" style = "vertical-align: middle;"/>&nbsp;<span style="font-size: 18px; color: #435f7a;">Silver I</span>
 
 ***
 
@@ -30,13 +30,28 @@
 
 첫째 줄에 최대 사용할 수 있는 회의의 최대 개수를 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|11<br/>1 4<br/>3 5<br/>0 6<br/>5 7<br/>3 8<br/>5 9<br/>6 10<br/>8 11<br/>8 12<br/>2 13<br/>12 14|4|
+```
+11
+1 4
+3 5
+0 6
+5 7
+3 8
+5 9
+6 10
+8 11
+8 12
+2 13
+12 14
+```
+
+```
+4
+```
 
 ### 힌트
 

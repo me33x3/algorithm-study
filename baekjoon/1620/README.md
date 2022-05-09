@@ -140,13 +140,52 @@
 
 이게 오박사님이 나에게 새로 주시려고 하는 도감이야. 너무 가지고 싶다ㅠㅜ. 꼭 만점을 받아줬으면 좋겠어!! 파이팅!!!
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|26 5<br/>Bulbasaur<br/>Ivysaur<br/>Venusaur<br/>Charmander<br/>Charmeleon<br/>Charizard<br/>Squirtle<br/>Wartortle<br/>Blastoise<br/>Caterpie<br/>Metapod<br/>Butterfree<br/>Weedle<br/>Kakuna<br/>Beedrill<br/>Pidgey<br/>Pidgeotto<br/>Pidgeot<br/>Rattata<br/>Raticate<br/>Spearow<br/>Fearow<br/>Ekans<br/>Arbok<br/>Pikachu<br/>Raichu<br/>25<br/>Raichu<br/>3<br/>Pidgey<br/>Kakuna|Pikachu<br/>26<br/>Venusaur<br/>16<br/>14|
+```
+26 5
+Bulbasaur
+Ivysaur
+Venusaur
+Charmander
+Charmeleon
+Charizard
+Squirtle
+Wartortle
+Blastoise
+Caterpie
+Metapod
+Butterfree
+Weedle
+Kakuna
+Beedrill
+Pidgey
+Pidgeotto
+Pidgeot
+Rattata
+Raticate
+Spearow
+Fearow
+Ekans
+Arbok
+Pikachu
+Raichu
+25
+Raichu
+3
+Pidgey
+Kakuna
+```
+
+```
+Pikachu
+26
+Venusaur
+16
+14
+```
 
 ### 알고리즘 분류
 

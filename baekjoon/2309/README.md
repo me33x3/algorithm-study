@@ -1,6 +1,6 @@
 # [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 
-> <img src="https://d2gd6pc034wcta.cloudfront.net/tier/4.svg" width="16" heigth="21" style = "vertical-align: middle;"/>&nbsp;<span style="font-size: 18px; color: #ad5600;">Bronze II</span>
+> <img src="https://d2gd6pc034wcta.cloudfront.net/tier/5.svg" width="16" heigth="21" style = "vertical-align: middle;"/>&nbsp;<span style="font-size: 18px; color: #ad5600;">Bronze I</span>
 
 ***
 
@@ -34,13 +34,31 @@
 
 일곱 난쟁이의 키를 오름차순으로 출력한다. 일곱 난쟁이를 찾을 수 없는 경우는 없다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|20<br/>7<br/>23<br/>19<br/>10<br/>15<br/>25<br/>8<br/>13|7<br/>8<br/>10<br/>13<br/>19<br/>20<br/>23|
+```
+20
+7
+23
+19
+10
+15
+25
+8
+13
+```
+
+```
+7
+8
+10
+13
+19
+20
+23
+```
 
 ### 알고리즘 분류
 

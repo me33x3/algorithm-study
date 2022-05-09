@@ -38,13 +38,22 @@
 
 첫째 줄에 보물이 묻혀 있는 두 곳 사이를 최단 거리로 이동하는 시간을 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|5 7<br/>WLLWWWL<br/>LLLWLLL<br/>LWLWLWW<br/>LWLWLLL<br/>WLLWLWW|8|
+```
+5 7
+WLLWWWL
+LLLWLLL
+LWLWLWW
+LWLWLLL
+WLLWLWW
+```
+
+```
+8
+```
 
 ### 알고리즘 분류
 

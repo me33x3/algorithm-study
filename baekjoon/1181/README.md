@@ -18,7 +18,7 @@
 
 알파벳 소문자로 이루어진 N개의 단어가 들어오면 아래와 같은 조건에 따라 정렬하는 프로그램을 작성하시오.
 
-1. 길이가 짧은 것부터
+1. 길이가 짧은 것부터  
 2. 길이가 같으면 사전 순으로
 
 ### 입력
@@ -33,13 +33,40 @@
 
 조건에 따라 정렬하여 단어들을 출력한다. 단, 같은 단어가 여러 번 입력된 경우에는 한 번씩만 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|13<br/>but<br/>i<br/>wont<br/>hesitate<br/>no<br/>more<br/>no<br/>more<br/>it<br/>cannot<br/>wait<br/>im<br/>yours|i<br/>im<br/>it<br/>no<br/>but<br/>more<br/>wait<br/>wont<br/>yours<br/>cannot<br/>hesitate|
+```
+13
+but
+i
+wont
+hesitate
+no
+more
+no
+more
+it
+cannot
+wait
+im
+yours
+```
+
+```
+i
+im
+it
+no
+but
+more
+wait
+wont
+yours
+cannot
+hesitate
+```
 
 ### 알고리즘 분류
 

@@ -30,13 +30,21 @@
 
 입력받은 그대로 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|Hello<br/>Baekjoon<br/>Online Judge|Hello<br/>Baekjoon<br/>Online Judge|
+```
+Hello
+Baekjoon
+Online Judge
+```
+
+```
+Hello
+Baekjoon
+Online Judge
+```
 
 ### 알고리즘 분류
 

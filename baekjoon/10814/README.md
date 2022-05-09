@@ -32,13 +32,22 @@
 
 첫째 줄부터 총 N개의 줄에 걸쳐 온라인 저지 회원을 나이 순, 나이가 같으면 가입한 순으로 한 줄에 한 명씩 나이와 이름을 공백으로 구분해 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|3<br/>21 Junkyu<br/>21 Dohyun<br/>20 Sunyoung|20 Sunyoung<br/>21 Junkyu<br/>21 Dohyun|
+```
+3
+21 Junkyu
+21 Dohyun
+20 Sunyoung
+```
+
+```
+20 Sunyoung
+21 Junkyu
+21 Dohyun
+```
 
 ### 알고리즘 분류
 

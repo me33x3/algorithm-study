@@ -30,13 +30,20 @@
 
 각 테스트 케이스에 대해서, 입력으로 주어진 문장의 단어를 모두 뒤집어 출력한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|2<br/>I am happy today<br/>We want to win the first prize|I ma yppah yadot<br/>eW tnaw ot niw eht tsrif ezirp|
+```
+2
+I am happy today
+We want to win the first prize
+```
+
+```
+I ma yppah yadot
+eW tnaw ot niw eht tsrif ezirp
+```
 
 ### 알고리즘 분류
 

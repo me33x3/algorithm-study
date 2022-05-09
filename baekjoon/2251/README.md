@@ -1,6 +1,6 @@
 # [물통](https://www.acmicpc.net/problem/2251)
 
-> <img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="16" heigth="21" style = "vertical-align: middle;"/>&nbsp;<span style="font-size: 18px; color: #435f7a;">Silver I</span>
+> <img src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg" width="16" heigth="21" style = "vertical-align: middle;"/>&nbsp;<span style="font-size: 18px; color: #ec9a00;">Gold V</span>
 
 ***
 
@@ -32,13 +32,17 @@
 
 첫째 줄에 공백으로 구분하여 답을 출력한다. 각 용량은 오름차순으로 정렬한다.
 
-### 예제
+### 예제 1
 
 ***
 
-|입력|출력|
-|:---|:---|
-|8 9 10|1 2 8 9 10|
+```
+8 9 10
+```
+
+```
+1 2 8 9 10
+```
 
 ### 알고리즘 분류
 
