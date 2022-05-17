@@ -6,40 +6,38 @@ apples = []
 for _ in range(k):
     apples.append(list(map(int, input().split())))
 
-L = int(input())
-
-direction = dict()
-for _ in range(L):
+L = dict()
+for _ in range(int(input())):
     x, c = input().split()
-    direction[int(x)] = c
+    L[int(x)] = c
 
-board = [[False] * (n + 1) for _ in range(n + 1)]
-board[1][1] = True
-mx, my = 1, 0
-sec = 0
+snake = deque([(1, 1)])
 
+dx, dy = [-1, 0, 1, 0], [0, 1, 0, -1]
 queue = deque([[1, 1]])
+d, sec = 1, 0
+
 while queue:
     x, y = queue.popleft()
 
-    sec += 1
-    if sec in direction:
-        mx, my = my, mx
-        if direction[sec] == 'L':
-            if my: my *= -1
+    mx, my = x + dx[d], y + dy[d]
+    if 1 <= mx <= n and 1 <= my <= n and not (mx, my) in snake:
+        snake.append((mx, my))
+
+        if [mx, my] not in apples:
+            snake.popleft()
         else:
-            if mx: mx *= -1
+            apples.pop(apples.index([mx, my]))
 
-    tx, ty = x + mx, y + my
-
-    print(mx, my, tx, ty)
-
-    if 1 <= tx <= n and 1 <= ty <= n and not board[tx][ty]:
-        board[tx][ty] = True
-        if [tx, ty] not in apples:
-            board[x][y] = False
-        queue.append([tx, ty])
+        queue.append([mx, my])
     else:
         break
 
-print(sec)
+    sec += 1
+    if sec in L:
+        if L[sec] == 'L':
+            d = (d - 1 + 4) % 4
+        else:
+            d = (d + 1) % 4
+
+print(sec + 1)
