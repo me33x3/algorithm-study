@@ -78,6 +78,8 @@
 
 그림 3은 그림 1의 빙산이 2년 후에 변한 모습을 보여준다. 2차원 배열에서 동서남북 방향으로 붙어있는 칸들은 서로 연결되어 있다고 말한다. 따라서 그림 2의 빙산은 한 덩어리이지만, 그림 3의 빙산은 세 덩어리로 분리되어 있다.
 
+<div align="center">
+
 <table class="table table-bordered td-center table-center-35 td-width-5">
 <tbody>
 <tr>
@@ -127,9 +129,13 @@
 </tr>
 </tbody>
 </table>
+
+</div>
 
 <div align="center">그림 2</div>
 
+<div align="center">
+
 <table class="table table-bordered td-center table-center-35 td-width-5">
 <tbody>
 <tr>
@@ -179,6 +185,8 @@
 </tr>
 </tbody>
 </table>
+
+</div>
 
 <div align="center">그림 3</div>
 
